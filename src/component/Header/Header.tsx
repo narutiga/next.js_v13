@@ -5,7 +5,7 @@ import { MainNavigation } from "src/component/MainNavigation/MainNavigation";
 /** @package */
 export const Header: FC = () => {
   return (
-    <div className="flex flex-col p-4 h-32 bg-main">
+    <div className="flex flex-col justify-between p-4 h-32 bg-main">
       <Link href="/">
         <p className="text-white text-3xl font-semibold">Next.js v13</p>
       </Link>
