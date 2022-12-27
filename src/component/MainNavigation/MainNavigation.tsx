@@ -5,14 +5,14 @@ import Link from "next/link";
 export const MainNavigation: FC = () => {
   return (
     <div className="flex justify-end">
-      <Link href="/cats" className="mr-8 text-gray-500">
-        Group1
+      <Link href="/server_component" className="mr-8 text-gray-500">
+        Server Component
       </Link>
-      <Link href="/baz" className="mr-8 text-gray-500">
-        Group2
+      <Link href="/image" className="mr-8 text-gray-500">
+        Image
       </Link>
-      <Link href="/baz" className="mr-8 text-gray-500">
-        Group3
+      <Link href="/rippleui" className="mr-8 text-gray-500">
+        Ripple UI
       </Link>
     </div>
   );

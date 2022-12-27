@@ -4,7 +4,7 @@ const Page: FC<{ params: { id: string } }> = ({ params }) => {
   return (
     <div>
       <p>{`${params} page`}</p>
-      <p>ここは動的ページの練習</p>
+      <p>動的ページ</p>
     </div>
   );
 };

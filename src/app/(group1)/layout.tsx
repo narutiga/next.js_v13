@@ -7,7 +7,7 @@ const BlogLayout: FC<{ children: React.ReactNode }> = ({ children }) => {
     <div className="flex">
       <SubNavigation />
       <div className="flex-1">
-        <PageTitle title="ServerComponent と ClientComponent" />
+        <PageTitle title="ServerComponent" />
         <div className="">{children}</div>
       </div>
     </div>

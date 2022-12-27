@@ -4,15 +4,15 @@ import Link from "next/link";
 /** @package */
 export const SubNavigation: FC = () => {
   return (
-    <div className="flex flex-col h-screen w-24 py-16 px-4 bg-sub1">
-      <Link href="/cats" className="mb-4 text-gray-500">
-        Cats
+    <div className="flex flex-col h-screen w-40 py-16 px-4 bg-sub1">
+      <Link href="/server_component" className="mb-8 text-gray-500">
+        Server Component
       </Link>
-      <Link href="/kitten" className="mb-4 text-gray-500">
-        Kitten
+      <Link href="/client_component" className="mb-8 text-gray-500">
+        Client Component
       </Link>
-      <Link href="/dogs" className="mb-4 text-gray-500">
-        Dogs
+      <Link href="/dynamic_segments" className="mb-8 text-gray-500">
+        Dynamic Segments
       </Link>
     </div>
   );
