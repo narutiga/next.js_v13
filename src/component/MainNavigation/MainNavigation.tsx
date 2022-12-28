@@ -11,8 +11,8 @@ export const MainNavigation: FC = () => {
       <Link href="/image" className="mr-8 text-gray-500">
         Image
       </Link>
-      <Link href="/rippleui" className="mr-8 text-gray-500">
-        Ripple UI
+      <Link href="/daisyui" className="mr-8 text-gray-500">
+        daisyUI
       </Link>
     </div>
   );

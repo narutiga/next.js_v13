@@ -5,7 +5,7 @@ import tigaPic from "public/tiga.jpg";
 
 const Page: FC = () => {
   return (
-    <div className="flex w-100 p-8">
+    <div className="flex w-100 p-8 bg-white">
       <div className="relative w-[45%] pt-[45%]">
         <Image
           src={narugaPic}

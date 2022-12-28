@@ -1,6 +1,5 @@
 import { FC } from "react";
 import { PageTitle } from "src/component/PageTitle/PageTitle";
-import { SubNavigation } from "src/component/SubNavigation/SubNavigation";
 
 const BlogLayout: FC<{ children: React.ReactNode }> = ({ children }) => {
   return (

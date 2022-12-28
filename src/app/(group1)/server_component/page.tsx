@@ -4,7 +4,7 @@ import { ServerComponent } from "src/component/ServerComponent";
 
 const CatsPage = () => {
   return (
-    <div className="p-8">
+    <div className="px-8 pb-8">
       <h2 className="mb-8 text-sub2">Server Component</h2>
       <div className="flex">
         <div className="w-1/2 mr-8">

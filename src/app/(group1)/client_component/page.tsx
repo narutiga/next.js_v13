@@ -1,8 +1,8 @@
 import { ClientComponent } from "src/component/ClientComponent";
 
-const CatsPage = () => {
+const Page = () => {
   return (
-    <div className="p-8">
+    <div className="px-8 pb-8">
       <h2 className="mb-8 text-sub2">Client Component</h2>
       <div className="flex">
         <div className="w-1/2">
@@ -13,4 +13,4 @@ const CatsPage = () => {
   );
 };
 
-export default CatsPage;
+export default Page;
