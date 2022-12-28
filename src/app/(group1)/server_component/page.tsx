@@ -4,8 +4,8 @@ import { ServerComponent } from "src/component/ServerComponent";
 
 const CatsPage = () => {
   return (
-    <div className="p-4">
-      <h2 className="m-4 text-sub2">Server Component</h2>
+    <div className="p-8">
+      <h2 className="mb-8 text-sub2">Server Component</h2>
       <div className="flex">
         <div className="w-1/2 mr-8">
           {/* @ts-expect-error Server Component */}
