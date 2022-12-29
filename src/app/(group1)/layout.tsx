@@ -4,7 +4,7 @@ import { SubNavigation } from "src/component/SubNavigation";
 
 const BlogLayout: FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="flex">
+    <div className="flex h-screen">
       <SubNavigation />
       <div>
         <PageTitle title="ServerComponent" />

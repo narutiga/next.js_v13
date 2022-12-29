@@ -14,8 +14,8 @@ const Page = async ({ params }: any) => {
 
   return (
     <div className="p-8">
-      <p className="mb-8">{`${id} page`}</p>
-      <p>{post.body}</p>
+      <p className="mb-8 text-center">{`${id} page`}</p>
+      <p className="mx-auto w-4/5">{post.body}</p>
     </div>
   );
 };

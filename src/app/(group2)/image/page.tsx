@@ -1,23 +1,15 @@
 import { FC } from "react";
-import Image from "next/image";
-import narugaPic from "public/naruga.jpg";
-import tigaPic from "public/tiga.jpg";
+import { LocalImage } from "src/component/LocalImage";
+import { RemoteImg } from "src/component/RemoteImg";
 
 const Page: FC = () => {
   return (
-    <div className="flex w-100 p-8 bg-white">
-      <div className="relative w-[45%] pt-[45%]">
-        <Image
-          src={narugaPic}
-          alt="Picture of naruga"
-          fill
-          priority
-          sizes="50vw"
-        />
-      </div>
-      <div className="relative w-[45%] pt-[45%] ml-8">
-        <Image src={tigaPic} alt="Picture of tiga" fill priority sizes="50vw" />
-      </div>
+    <div className="w-100 p-8 bg-white">
+      <h2 className="text-xl text-sub2">Local Image</h2>
+      <LocalImage />
+      <h2 className="text-xl text-sub2">Romote Image</h2>
+      {/* @ts-expect-error Server Component */}
+      <RemoteImg />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import Link from "next/link";
 /** @package */
 export const SubNavigation: FC = () => {
   return (
-    <div className="flex flex-col h-screen w-40 py-16 px-4 bg-sub1">
+    <div className="flex flex-col h-auto w-40 py-16 px-4 bg-sub1">
       <Link href="/server_component" className="mb-8 text-gray-500">
         Server Component
       </Link>

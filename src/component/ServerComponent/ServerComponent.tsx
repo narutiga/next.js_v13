@@ -1,11 +1,7 @@
-const fetcher = async (input: RequestInfo, init?: RequestInit) => {
-  const res = await fetch(input, init);
-  return res.json();
-};
-
 /** @package */
 export const ServerComponent = async () => {
-  const data = await fetcher("https://jsonplaceholder.typicode.com/users");
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const data = await res.json();
 
   return (
     <div className="relative w-100 h-100">

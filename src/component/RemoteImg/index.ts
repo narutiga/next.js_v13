@@ -1,0 +1,1 @@
+export { RemoteImg } from "./RemoteImg";
