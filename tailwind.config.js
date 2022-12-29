@@ -20,5 +20,8 @@ module.exports = {
       },
     },
   },
-  // plugins: [require("rippleui")],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [],
+  },
 };
