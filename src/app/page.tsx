@@ -7,6 +7,7 @@ const Home = () => {
         <PageTitle title="ルートページ" />
         <p>Next.js v13をさわってみてます</p>
         <p>ここはルートページです</p>
+        <p>GitHub Actionを試してみてます</p>
         <div className="m-8">
           <h2 className="text-xl text-sub2 mb-4">Next.js v13の概要</h2>
           <ul className="list-disc list-inside ">
